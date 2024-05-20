@@ -1,0 +1,34 @@
+body {
+    background-color: #252525
+;
+    color: #CCA152;
+    text-align: center;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+.floor {
+    background-color: #58626E;
+}
+
+.wall {
+    background-color: #314657;
+}
+
+button{
+margin: auto;
+    display: none;
+}
+
+table{
+    margin: auto;
+}

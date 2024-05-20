@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Mister Balls</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="onHandleKey(event)" onload="onInitGame()">
+  <h1>Collect those Lolo</h1>
+  <h2> Lola's Collected : <span>0</span></h2>
+  <h3> Lola's Around You : <span>0</span></h3>
+    <button onclick="restart(this)">Restart</button>
+    <table>
+      <tbody class="board"></tbody>
+    </table>
+
+    <script src="js/util.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
